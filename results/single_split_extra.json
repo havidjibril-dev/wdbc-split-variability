@@ -1,0 +1,27 @@
+{
+  "n_splits": 100,
+  "splits_with_tie_for_best": 44,
+  "svm_minus_rf_acc_pos_zero_neg": [
+    72,
+    19,
+    9
+  ],
+  "svm_minus_lr_acc_pos_zero_neg": [
+    32,
+    34,
+    34
+  ],
+  "share_svm_at_least_0.9824": 0.44,
+  "seed42_acc": {
+    "LR": 0.9649122807017544,
+    "KNN": 0.9649122807017544,
+    "RF": 0.9736842105263158,
+    "SVM": 0.9736842105263158
+  },
+  "seed42_params": {
+    "LR": "{\"clf__C\": 1}",
+    "KNN": "{\"clf__metric\": \"manhattan\", \"clf__n_neighbors\": 3, \"clf__weights\": \"uniform\"}",
+    "RF": "{\"max_features\": 0.5, \"min_samples_leaf\": 1}",
+    "SVM": "{\"clf__C\": 10, \"clf__gamma\": \"scale\"}"
+  }
+}
